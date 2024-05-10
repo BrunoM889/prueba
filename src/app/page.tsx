@@ -58,7 +58,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex w-full min-h-screen flex-col items-center justify-between bg-gradient-radial from-[#151d27] to-gray-950  text-gray-200 pb-6">
+    <main className="flex w-full min-h-screen flex-col items-center justify-between bg-gradient-radial from-[#151d27] to-[#040914] selection:bg-[#292f3a]  text-gray-200 pb-6">
       <div className="w-[90%] max-w-[600px] flex flex-col px-4 mt-14">
         <TranscriptionComponent
           transcriptions={transcriptions}
@@ -93,7 +93,13 @@ export default function Home() {
           </span>
         </div>
         <div className="w-full flex justify-end mt-6">
-          <Link target="_blank" className="border-b opacity-60 leading-[22px] hover:border-[#7c94b3] hover:text-[#7c94b3] transition" href="https://github.com/BrunoM889/prueba">Source</Link>
+          <Link
+            target="_blank"
+            className="border-b opacity-60 leading-[22px] hover:border-[#7c94b3] hover:text-[#7c94b3] transition"
+            href="https://github.com/BrunoM889/prueba"
+          >
+            Source
+          </Link>
         </div>
       </div>
     </main>
