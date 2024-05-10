@@ -56,7 +56,6 @@ function Controllers({
           max={1}
           step={0.1}
           onChange={(e) => {
-            console.log(Number(e.target.value));
             setVolume(Number(e.target.value));
           }}
         />
